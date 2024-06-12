@@ -16,7 +16,8 @@ import platform
 
 # I think this will print "hello! Let's get started" by calling the print function.
 print("hello! Let's get started")  # it printed "hello! Let's get started"
-
+# I think this some_words is the variable name
+# the assignmenet operator will put the value which is the list of strings into the variable.
 some_words = ["what", "does", "this", "line", "do", "?"]
 
 for word in some_words:
