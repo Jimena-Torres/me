@@ -52,7 +52,7 @@
   },
   {
     "of_total": 34,
-    "mark": 18,
+    "mark": 20,
     "results": [
       {
         "value": 1,
@@ -127,7 +127,7 @@
         "name": "Exercise 0: shout - party => PARTY"
       },
       {
-        "value": 0,
+        "value": 1,
         "name": "Exercise 0: shout_with_a_number - hi, 1 => HI 1"
       },
       {
@@ -187,7 +187,7 @@
         "name": "Exercise 3: loops_7 - pyramid of stars"
       },
       {
-        "value": 0,
+        "value": 1,
         "name": "Lab book entry completed"
       }
     ],

@@ -1,6 +1,8 @@
 TODO: Reflect on what you learned this week and what is still unclear.
 ctrl + to open the terminal
 
+concatinate means to join together not to multiply/ or add/ together
+
 COMMENTS
 to declare a line is a comments i have to start with #. Commenting lets me put notes in my code/doc
 Comments can be placed at the end of a line, and Python will ignore the rest of the line
