@@ -1,0 +1,34 @@
+{
+    "architecture": [
+        "64bit",
+        ""
+    ],
+    "machine": "arm64",
+    "os_name": "posix",
+    "platform": "macOS-12.5-arm64-arm-64bit",
+    "processor": "arm",
+    "release": "21.6.0",
+    "system": "Darwin",
+    "uname": [
+        "Darwin",
+        "Jimenas-MacBook-Pro.local",
+        "21.6.0",
+        "Darwin Kernel Version 21.6.0: Sat Jun 18 17:07:28 PDT 2022; root:xnu-8020.140.41~1/RELEASE_ARM64_T8110",
+        "arm64",
+        "arm"
+    ],
+    "version": "Darwin Kernel Version 21.6.0: Sat Jun 18 17:07:28 PDT 2022; root:xnu-8020.140.41~1/RELEASE_ARM64_T8110",
+    "python_build": [
+        "v3.12.3:f6650f9ad7",
+        "Apr  9 2024 08:18:47"
+    ],
+    "python_compiler": "Clang 13.0.0 (clang-1300.0.29.30)",
+    "python_implementation(": "CPython",
+    "python_version(": "3.12.3",
+    "python_version_tuple": [
+        "3",
+        "12",
+        "3"
+    ],
+    "cpu_count": 8
+}
