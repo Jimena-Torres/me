@@ -29,6 +29,7 @@ some_words = [
     "?",
 ]  # it printed each word for when called in some_words
 
+
 for word in some_words:
     print(word)
 
