@@ -157,3 +157,17 @@ my_name("Lucy")
 my_name("Pete")
 
 When I call my_name , the names I typed will be replied
+
+REFLECTION:
+had trouble with conditional statements
+
+RESEARCH - CONDITIONAL STATEMENTS
+
+Equals: a == b
+Not Equals: a != b
+Less than: a < b
+Less than or equal to: a <= b
+Greater than: a > b
+Greater than or equal to: a >= b
+
+if statements arw written using the 'if' keyword
