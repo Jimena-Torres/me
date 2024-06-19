@@ -232,11 +232,12 @@ def loops_5():
     number_square = []
     for i in range(10):
         cordinates_row = []
-        for j in range(10):
-            cordinates_row.append("(i" + str(i) + ", j" + str(j) + ")")
+        for j in range(5):
+            cordinates_row.append("(i{}, j{})".format(i, j))
         number_square.append(cordinates_row)
 
     return number_square
+    #
 
 
 def loops_6():
@@ -259,13 +260,6 @@ def loops_6():
     You can use a variable.
     TIP: look out for the starting condition.
     """
-    the_wedge = []
-    for i in range(10):
-        row = []
-        for j in range(i):
-            row.append(j)
-        the_wedge.append(row)
-    return the_wedge
 
 
 def loops_7():
@@ -290,12 +284,6 @@ def loops_7():
     lots of diagrams!
     """
     rows = 5
-
-    def pyramid():
-        for i in range(1, rows + 1):
-            print("" * (rows - i) + "*" * (2 * i - 1) + "" * (rows - i))
-
-    return pyramid
 
 
 if __name__ == "__main__":
