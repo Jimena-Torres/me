@@ -52,7 +52,7 @@
   },
   {
     "of_total": 35,
-    "mark": 33,
+    "mark": 34,
     "results": [
       {
         "value": 1,
@@ -183,7 +183,7 @@
         "name": "Exercise 3: loops_5 - write the coords"
       },
       {
-        "value": 0,
+        "value": 1,
         "name": "Exercise 3: loops_6 - make a wedge"
       },
       {

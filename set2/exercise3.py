@@ -260,6 +260,13 @@ def loops_6():
     You can use a variable.
     TIP: look out for the starting condition.
     """
+    list = []
+    for i in range(1, 11):
+        row = []
+        for j in range(i):
+            row.append(str(j))
+        list.append(row)
+    return list
 
 
 def loops_7():
