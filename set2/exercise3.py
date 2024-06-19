@@ -68,11 +68,11 @@ def loops_1a():
     return a list of 10 items, each one a string with exacly one star in it.
     E.g.: ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*']
     """
-    star_list = []
+    stars = []
     for i in range(10):
-        star_list.append("*")
+        stars.append("*")
 
-        return star_list
+        return stars
 
 
 def loops_1c(number_of_items=5, symbol="#"):
@@ -170,7 +170,6 @@ def loops_3():
         for j in range(10):
             number_square.append(i)
             number_square.append(number_row)
-
         return list
 
 
@@ -221,7 +220,12 @@ def loops_5():
         f"There are {num_bottles} green bottles"
     you'll come to see the pros and cons of each over time.
     """
-    return None
+    number_square = []
+    for i in range(10):
+        row = []
+        for j in range(10):
+            number_square.append("(i " + str(i) + ",j" + str(j) + ")")
+            return number_square
 
 
 def loops_6():
@@ -244,6 +248,14 @@ def loops_6():
     You can use a variable.
     TIP: look out for the starting condition.
     """
+    list = []
+    for i in range(10):
+        row = []
+        for j in range(i):
+            row.append(j)
+            list.append(row)
+            return list
+
     return None
 
 
@@ -268,7 +280,14 @@ def loops_7():
     This is a hard problem. Use lots of experimentation and draw
     lots of diagrams!
     """
-    return None
+
+    rows = 5
+
+    def pyramid():
+        for i in range(1, rows + 1):
+            print("" * (rows - i) + "*" * (2 * i - 1) + "" * (rows - i))
+
+    return pyramid
 
 
 if __name__ == "__main__":
