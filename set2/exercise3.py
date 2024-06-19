@@ -270,6 +270,15 @@ def loops_6():
 
 
 def loops_7():
+
+    sign = []
+    star = ["*"]
+    space = [" "]
+    for i in range(5):
+        row = space * (4 - i) + star * (2 * i + 1) + space * (4 - i)
+        sign.append(row)
+    return sign
+
     """Make a pyramid.
 
     Return this:

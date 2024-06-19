@@ -238,3 +238,6 @@ key:value
 # this will print jim has 3 cats
 
 # [] is the placeholder
+
+loop_7
+(4-i) x [-] + (2i+1) x [*]
