@@ -164,14 +164,14 @@ def loops_3():
     TIP: notice that this needs to to return strings of numbers,
          so call str(number) to cast.
     """
-
     number_square = []
     for i in range(10):
         number_row = []
         for j in range(10):
-            number_square.append(i)
-            number_square.append(number_row)
-        return list
+            number_row.append(str(i))
+        number_square.append(number_row)
+
+    return number_square
 
 
 def loops_4():
@@ -191,7 +191,14 @@ def loops_4():
       ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
     ]
     """
-    return None
+    number_square = []
+    for i in range(10):
+        number_row = []
+        for j in range(10):
+            number_row.append(str(j))
+        number_square.append(number_row)
+
+    return number_square
 
 
 def loops_5():
@@ -221,12 +228,15 @@ def loops_5():
         f"There are {num_bottles} green bottles"
     you'll come to see the pros and cons of each over time.
     """
+
     number_square = []
     for i in range(10):
-        row = []
+        cordinates_row = []
         for j in range(10):
-            number_square.append("(i " + str(i) + ",j" + str(j) + ")")
-            return number_square
+            cordinates_row.append("(i" + str(i) + ", j" + str(j) + ")")
+        number_square.append(cordinates_row)
+
+    return number_square
 
 
 def loops_6():
@@ -249,15 +259,13 @@ def loops_6():
     You can use a variable.
     TIP: look out for the starting condition.
     """
-    list = []
+    the_wedge = []
     for i in range(10):
         row = []
         for j in range(i):
             row.append(j)
-            list.append(row)
-            return list
-
-    return None
+        the_wedge.append(row)
+    return the_wedge
 
 
 def loops_7():
@@ -281,7 +289,6 @@ def loops_7():
     This is a hard problem. Use lots of experimentation and draw
     lots of diagrams!
     """
-
     rows = 5
 
     def pyramid():
